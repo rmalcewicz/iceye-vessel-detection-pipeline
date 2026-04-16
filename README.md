@@ -36,6 +36,11 @@ I compared three different approaches to see where the capabilities break down:
 - `models/`: Weights for the OpenSARShip_2 model and the baseline pretrained YOLOv8n.
 - `output/`: Comparative results for all 3 approaches across the 7-image test set.
 
+## Visual Capability Comparison (2x2)
+
+The following grid demonstrates the detection performance across the three strategies on a sample 100MP ICEYE Spotlight tile.
+
+![Vessel Detection Results](output/plot.png)
 ## Usage
 1. **Install dependencies:** `pip install -r requirements.txt`
 2. **Prepare data:** `python src/prepare_data.py`  
