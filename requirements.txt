@@ -1,0 +1,9 @@
+ultralytics==8.1.0
+sahi==0.11.15
+tifffile
+imagecodecs
+opencv-python
+scikit-image
+matplotlib
+pandas
+numpy

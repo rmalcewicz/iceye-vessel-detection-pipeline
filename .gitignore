@@ -1,0 +1,12 @@
+# Ignore large raw data
+data/raw/
+*.tif
+*.png
+
+# Ignore python cache
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore local environment files
+.env
+v_env/
